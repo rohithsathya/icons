@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+    <script src="../src/icons.js"></script>
+
+    <script>
+        var app = angular.module('myApp', ['rsat.ui']);
+        app.controller('myController', function ($scope) {
+            $scope.strokeColor = "black";
+            $scope.iconSize = '24px';
+        });
+    </script>
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+
+   <icon-arrow-left color="red" size="33px"> </icon-arrow-left>
+
+</body>
+
+</html>
