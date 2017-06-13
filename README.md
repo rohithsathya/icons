@@ -1,4 +1,4 @@
-# SmartTable
+# Icons
 A icons library for angular js project
 ##Dependencies
 Angular Js
@@ -18,7 +18,7 @@ then use the any of the available icons directive to add icons to your app
 
 ```html
 <icon-arrow-left color="red" size="33px"> </icon-arrow-left>
-```html
+```
 
 ##Example
 run the index.html file
