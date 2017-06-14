@@ -4,10 +4,10 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
-    <script src="../src/icons.js"></script>
+    <script src="../src/rsat.ui.icons.js"></script>
 
     <script>
-        var app = angular.module('myApp', ['rsat.ui']);
+        var app = angular.module('myApp', ['rsat.icons']);
         app.controller('myController', function ($scope) {
             $scope.strokeColor = "black";
             $scope.iconSize = '24px';
@@ -18,6 +18,9 @@
 <body ng-app="myApp" ng-controller="myController">
 
    <icon-arrow-left color="red" size="33px"> </icon-arrow-left>
+   <icon-arrow-right color="red" size="33px"> </icon-arrow-right>
+   <icon-arrow-upward color="red" size="33px"> </icon-arrow-upward>
+   <icon-arrow-downward color="red" size="33px"> </icon-arrow-downward>
 
 </body>
 
